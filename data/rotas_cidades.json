@@ -1,0 +1,161 @@
+[
+  {
+    "origem": "Lichinga",
+    "destino": "Cuamba"
+  },
+    {
+    "origem": "Chimoio",
+    "destino": "Gondola"
+  },
+  {
+    "origem": "Cuamba",
+    "destino": "Tete"
+  },
+   {
+    "origem": "Dondo",
+    "destino": "Gondola"
+  },
+  {
+    "origem": "Cuamba",
+    "destino": "Gurué"
+  },
+  {
+    "origem": "Tete",
+    "destino": "Gongola"
+  },
+  {
+    "origem": "Gongola",
+    "destino": "Chimoio"
+  },
+  {
+    "origem": "Gongola",
+    "destino": "Mocuba"
+  },
+  {
+    "origem": "Gongola",
+    "destino": "Vilanculos"
+  },
+  {
+    "origem": "Gongola",
+    "destino": "Dondo"
+  },
+  {
+    "origem": "Gongola",
+    "destino": "Quelimane"
+  },
+  {
+    "origem": "Chimoio",
+    "destino": "Catandica"
+  },
+  {
+    "origem": "Dondo",
+    "destino": "Beira"
+  },
+  {
+    "origem": "Inhambane",
+    "destino": "Maxixe"
+  },
+  {
+    "origem": "Inhambane",
+    "destino": "Manjacaze"
+  },
+  {
+    "origem": "Inhambane",
+    "destino": "Xai-Xai"
+  },
+  {
+    "origem": "Inhambane",
+    "destino": "Vilanculos"
+  },
+  {
+    "origem": "Manjacaze",
+    "destino": "Macia"
+  },
+  {
+    "origem": "Angoche",
+    "destino": "Gurué"
+  },
+  {
+    "origem": "Tete",
+    "destino": "Gondola"
+  },
+  {
+    "origem": "Maputo",
+    "destino": "Matola"
+  },
+  {
+    "origem": "Vilanculos",
+    "destino": "Gondola"
+  },
+   {
+    "origem": "Vilanculos",
+    "destino": "Gondola"
+  },
+  {
+    "origem": "Macia",
+    "destino": "Xai-Xai"
+  },
+  {
+    "origem": "Macia",
+    "destino": "Chibuto"
+  },
+  {
+    "origem": "Chibuto",
+    "destino": "Chokwé"
+  },
+  {
+    "origem": "Chibuto",
+    "destino": "Maputo"
+  },
+  {
+    "origem": "Chibuto",
+    "destino": "Matola"
+  },
+  {
+    "origem": "Mocuba",
+    "destino": "Ulongué"
+  },
+  {
+    "origem": "Mocuba",
+    "destino": "Gurué"
+  },
+  {
+    "origem": "Mocuba",
+    "destino": "Angoche"
+  },
+  {
+    "origem": "Mocuba",
+    "destino": "Namialo"
+  },
+  {
+    "origem": "Namialo",
+    "destino": "Monapo"
+  },
+  {
+    "origem": "Monapo",
+    "destino": "Nacala"
+  },
+  {
+    "origem": "Monapo",
+    "destino": "Ilha de Moçambique"
+  },
+  {
+    "origem": "Ilha de Moçambique",
+    "destino": "Montepuez"
+  },
+  {
+    "origem": "Ilha de Moçambique",
+    "destino": "Pemba"
+  },{
+    "origem": "Pemba",
+    "destino": "Mocimboa"
+  },
+  {
+    "origem": "Montepuez",
+    "destino": "Mocimboa"
+  },
+  {
+    "origem": "Gurué",
+    "destino": "Monapo"
+  }
+]

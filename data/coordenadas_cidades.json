@@ -1,0 +1,142 @@
+{
+    "Angoche": {
+        "latitude": -16.2325,
+        "longitude": 39.90861
+    },
+    "Beira": {
+        "latitude": -19.84361,
+        "longitude": 34.83889
+    },
+    "Catandica": {
+        "latitude": -17.33583,
+        "longitude": 33.05306
+    },
+    "Chibuto": {
+        "latitude": -24.68667,
+        "longitude": 33.53056
+    },
+    "Chimoio": {
+        "latitude": -19.11639,
+        "longitude": 33.48333
+    },
+    "Chokwé": {
+        "latitude": -24.53333,
+        "longitude": 32.98333
+    },
+    "Cuamba": {
+        "latitude": -14.80306,
+        "longitude": 36.53722
+    },
+    "Dondo": {
+        "latitude": -19.60944,
+        "longitude": 34.74306
+    },
+    "Garue": {
+        "latitude": -15.03417,
+        "longitude": 40.73583
+    },
+    "Gondola": {
+        "latitude": -19.153724,
+        "longitude": 33.653722
+    },
+    "Gurué": {
+        "latitude": -15.46694,
+        "longitude": 36.97778
+    },
+    "Inhambane": {
+        "latitude": -23.865,
+        "longitude": 35.38333
+    },
+    "Lichinga": {
+        "latitude": -13.31278,
+        "longitude": 35.24056
+    },
+    "Macia": {
+        "latitude": -25.02694,
+        "longitude": 33.09889
+    },
+    "Manica": {
+        "latitude": -18.93333,
+        "longitude": 32.87713
+    },
+    "Manjacaze": {
+        "latitude": -24.71167,
+        "longitude": 33.88278
+    },
+    "Maputo": {
+        "latitude": -25.96553,
+        "longitude": 32.58322
+    },
+    "Matola": {
+        "latitude": -25.96222,
+        "longitude": 32.45889
+    },
+    "Maxixe": {
+        "latitude": -23.85972,
+        "longitude": 35.34722
+    },
+    "Moatize": {
+        "latitude": -16.099548,
+        "longitude": 33.95001
+    },
+    "Ilha de Moçambique": {
+        "latitude": -15.03417,
+        "longitude": 40.73583
+    },
+    "Mocimboa": {
+        "latitude": -25.915064,
+        "longitude": 32.469952
+    },
+    "Mocuba": {
+        "latitude": -16.8375,
+        "longitude": 36.98556
+    },
+    "Monapo": {
+        "latitude": -14.91694,
+        "longitude": 40.30222
+    },
+    "Montepuez": {
+        "latitude": -13.12556,
+        "longitude": 38.99972
+    },
+    "Mutuáli": {
+        "latitude": -15.03417,
+        "longitude": 40.73583
+    },
+    "Nacala": {
+        "latitude": -14.54278,
+        "longitude": 40.67278
+    },
+    "Namialo": {
+        "latitude": -14.92056,
+        "longitude": 39.98361
+    },
+    "Nampula": {
+        "latitude": -15.11646,
+        "longitude": 39.2666
+    },
+    "Pemba": {
+        "latitude": -12.97395,
+        "longitude": 40.51775
+    },
+    "Quelimane": {
+        "latitude": -17.87861,
+        "longitude": 36.88833
+    },
+    "Tete": {
+        "latitude": -16.15639,
+        "longitude": 33.58667
+    },
+    "Ulongué": {
+        "latitude": -14.72278,
+        "longitude": 34.36083
+    },
+    "Vilanculos": {
+        "latitude": -22.59639,
+        "longitude": 35.1125
+    },
+    "Xai-Xai": {
+        "latitude": -25.05194,
+        "longitude": 33.64417
+    }
+}

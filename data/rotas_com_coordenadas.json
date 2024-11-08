@@ -1,0 +1,410 @@
+[
+    {
+        "origem": {
+            "cidade": "Lichinga",
+            "latitude": -13.31278,
+            "longitude": 35.24056
+        },
+        "destino": {
+            "cidade": "Cuamba",
+            "latitude": -14.80306,
+            "longitude": 36.53722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Chimoio",
+            "latitude": -19.11639,
+            "longitude": 33.48333
+        },
+        "destino": {
+            "cidade": "Gondola",
+            "latitude": -19.153724,
+            "longitude": 33.653722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Cuamba",
+            "latitude": -14.80306,
+            "longitude": 36.53722
+        },
+        "destino": {
+            "cidade": "Tete",
+            "latitude": -16.15639,
+            "longitude": 33.58667
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Dondo",
+            "latitude": -19.60944,
+            "longitude": 34.74306
+        },
+        "destino": {
+            "cidade": "Gondola",
+            "latitude": -19.153724,
+            "longitude": 33.653722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Cuamba",
+            "latitude": -14.80306,
+            "longitude": 36.53722
+        },
+        "destino": {
+            "cidade": "Guru\u00e9",
+            "latitude": -15.46694,
+            "longitude": 36.97778
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Chimoio",
+            "latitude": -19.11639,
+            "longitude": 33.48333
+        },
+        "destino": {
+            "cidade": "Catandica",
+            "latitude": -17.33583,
+            "longitude": 33.05306
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Dondo",
+            "latitude": -19.60944,
+            "longitude": 34.74306
+        },
+        "destino": {
+            "cidade": "Beira",
+            "latitude": -19.84361,
+            "longitude": 34.83889
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Inhambane",
+            "latitude": -23.865,
+            "longitude": 35.38333
+        },
+        "destino": {
+            "cidade": "Maxixe",
+            "latitude": -23.85972,
+            "longitude": 35.34722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Inhambane",
+            "latitude": -23.865,
+            "longitude": 35.38333
+        },
+        "destino": {
+            "cidade": "Manjacaze",
+            "latitude": -24.71167,
+            "longitude": 33.88278
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Inhambane",
+            "latitude": -23.865,
+            "longitude": 35.38333
+        },
+        "destino": {
+            "cidade": "Xai-Xai",
+            "latitude": -25.05194,
+            "longitude": 33.64417
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Inhambane",
+            "latitude": -23.865,
+            "longitude": 35.38333
+        },
+        "destino": {
+            "cidade": "Vilanculos",
+            "latitude": -22.59639,
+            "longitude": 35.1125
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Manjacaze",
+            "latitude": -24.71167,
+            "longitude": 33.88278
+        },
+        "destino": {
+            "cidade": "Macia",
+            "latitude": -25.02694,
+            "longitude": 33.09889
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Angoche",
+            "latitude": -16.2325,
+            "longitude": 39.90861
+        },
+        "destino": {
+            "cidade": "Guru\u00e9",
+            "latitude": -15.46694,
+            "longitude": 36.97778
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Tete",
+            "latitude": -16.15639,
+            "longitude": 33.58667
+        },
+        "destino": {
+            "cidade": "Gondola",
+            "latitude": -19.153724,
+            "longitude": 33.653722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Maputo",
+            "latitude": -25.96553,
+            "longitude": 32.58322
+        },
+        "destino": {
+            "cidade": "Matola",
+            "latitude": -25.96222,
+            "longitude": 32.45889
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Vilanculos",
+            "latitude": -22.59639,
+            "longitude": 35.1125
+        },
+        "destino": {
+            "cidade": "Gondola",
+            "latitude": -19.153724,
+            "longitude": 33.653722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Vilanculos",
+            "latitude": -22.59639,
+            "longitude": 35.1125
+        },
+        "destino": {
+            "cidade": "Gondola",
+            "latitude": -19.153724,
+            "longitude": 33.653722
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Macia",
+            "latitude": -25.02694,
+            "longitude": 33.09889
+        },
+        "destino": {
+            "cidade": "Xai-Xai",
+            "latitude": -25.05194,
+            "longitude": 33.64417
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Macia",
+            "latitude": -25.02694,
+            "longitude": 33.09889
+        },
+        "destino": {
+            "cidade": "Chibuto",
+            "latitude": -24.68667,
+            "longitude": 33.53056
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Chibuto",
+            "latitude": -24.68667,
+            "longitude": 33.53056
+        },
+        "destino": {
+            "cidade": "Chokw\u00e9",
+            "latitude": -24.53333,
+            "longitude": 32.98333
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Chibuto",
+            "latitude": -24.68667,
+            "longitude": 33.53056
+        },
+        "destino": {
+            "cidade": "Maputo",
+            "latitude": -25.96553,
+            "longitude": 32.58322
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Chibuto",
+            "latitude": -24.68667,
+            "longitude": 33.53056
+        },
+        "destino": {
+            "cidade": "Matola",
+            "latitude": -25.96222,
+            "longitude": 32.45889
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Mocuba",
+            "latitude": -16.8375,
+            "longitude": 36.98556
+        },
+        "destino": {
+            "cidade": "Ulongu\u00e9",
+            "latitude": -14.72278,
+            "longitude": 34.36083
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Mocuba",
+            "latitude": -16.8375,
+            "longitude": 36.98556
+        },
+        "destino": {
+            "cidade": "Guru\u00e9",
+            "latitude": -15.46694,
+            "longitude": 36.97778
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Mocuba",
+            "latitude": -16.8375,
+            "longitude": 36.98556
+        },
+        "destino": {
+            "cidade": "Angoche",
+            "latitude": -16.2325,
+            "longitude": 39.90861
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Mocuba",
+            "latitude": -16.8375,
+            "longitude": 36.98556
+        },
+        "destino": {
+            "cidade": "Namialo",
+            "latitude": -14.92056,
+            "longitude": 39.98361
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Namialo",
+            "latitude": -14.92056,
+            "longitude": 39.98361
+        },
+        "destino": {
+            "cidade": "Monapo",
+            "latitude": -14.91694,
+            "longitude": 40.30222
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Monapo",
+            "latitude": -14.91694,
+            "longitude": 40.30222
+        },
+        "destino": {
+            "cidade": "Nacala",
+            "latitude": -14.54278,
+            "longitude": 40.67278
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Monapo",
+            "latitude": -14.91694,
+            "longitude": 40.30222
+        },
+        "destino": {
+            "cidade": "Ilha de Mo\u00e7ambique",
+            "latitude": -15.03417,
+            "longitude": 40.73583
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Ilha de Mo\u00e7ambique",
+            "latitude": -15.03417,
+            "longitude": 40.73583
+        },
+        "destino": {
+            "cidade": "Montepuez",
+            "latitude": -13.12556,
+            "longitude": 38.99972
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Ilha de Mo\u00e7ambique",
+            "latitude": -15.03417,
+            "longitude": 40.73583
+        },
+        "destino": {
+            "cidade": "Pemba",
+            "latitude": -12.97395,
+            "longitude": 40.51775
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Pemba",
+            "latitude": -12.97395,
+            "longitude": 40.51775
+        },
+        "destino": {
+            "cidade": "Mocimboa",
+            "latitude": -25.915064,
+            "longitude": 32.469952
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Montepuez",
+            "latitude": -13.12556,
+            "longitude": 38.99972
+        },
+        "destino": {
+            "cidade": "Mocimboa",
+            "latitude": -25.915064,
+            "longitude": 32.469952
+        }
+    },
+    {
+        "origem": {
+            "cidade": "Guru\u00e9",
+            "latitude": -15.46694,
+            "longitude": 36.97778
+        },
+        "destino": {
+            "cidade": "Monapo",
+            "latitude": -14.91694,
+            "longitude": 40.30222
+        }
+    }
+]

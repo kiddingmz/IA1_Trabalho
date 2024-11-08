@@ -1,0 +1,189 @@
+{
+    "origem": {
+        "cidade": "Maputo",
+        "latitude": -25.96553,
+        "longitude": 32.58322
+    },
+    "destino": {
+        "cidade": "Matola",
+        "latitude": -25.96222,
+        "longitude": 32.45889
+    },
+    "distancias": {
+        "Angoche": {
+            "latitude": -16.2325,
+            "longitude": 39.90861,
+            "distancia_ate_destino_km": 1328.7586221965767
+        },
+        "Beira": {
+            "latitude": -19.84361,
+            "longitude": 34.83889,
+            "distancia_ate_destino_km": 722.6538597398854
+        },
+        "Catandica": {
+            "latitude": -17.33583,
+            "longitude": 33.05306,
+            "distancia_ate_destino_km": 961.1689956779894
+        },
+        "Chibuto": {
+            "latitude": -24.68667,
+            "longitude": 33.53056,
+            "distancia_ate_destino_km": 178.09609629412216
+        },
+        "Chimoio": {
+            "latitude": -19.11639,
+            "longitude": 33.48333,
+            "distancia_ate_destino_km": 768.4449931101154
+        },
+        "Chokwé": {
+            "latitude": -24.53333,
+            "longitude": 32.98333,
+            "distancia_ate_destino_km": 167.41046798809617
+        },
+        "Cuamba": {
+            "latitude": -14.80306,
+            "longitude": 36.53722,
+            "distancia_ate_destino_km": 1311.3263309887532
+        },
+        "Dondo": {
+            "latitude": -19.60944,
+            "longitude": 34.74306,
+            "distancia_ate_destino_km": 744.1394666076748
+        },
+        "Garue": {
+            "latitude": -15.03417,
+            "longitude": 40.73583,
+            "distancia_ate_destino_km": 1488.7558434098873
+        },
+        "Gondola": {
+            "latitude": -19.153724,
+            "longitude": 33.653722,
+            "distancia_ate_destino_km": 766.9304100379424
+        },
+        "Gurué": {
+            "latitude": -15.46694,
+            "longitude": 36.97778,
+            "distancia_ate_destino_km": 1257.7506663845786
+        },
+        "Inhambane": {
+            "latitude": -23.865,
+            "longitude": 35.38333,
+            "distancia_ate_destino_km": 375.9552800964596
+        },
+        "Lichinga": {
+            "latitude": -13.31278,
+            "longitude": 35.24056,
+            "distancia_ate_destino_km": 1436.2380425286572
+        },
+        "Macia": {
+            "latitude": -25.02694,
+            "longitude": 33.09889,
+            "distancia_ate_destino_km": 122.23607739574202
+        },
+        "Manica": {
+            "latitude": -18.93333,
+            "longitude": 32.87713,
+            "distancia_ate_destino_km": 782.7556670750721
+        },
+        "Manjacaze": {
+            "latitude": -24.71167,
+            "longitude": 33.88278,
+            "distancia_ate_destino_km": 199.5295769303597
+        },
+        "Maputo": {
+            "latitude": -25.96553,
+            "longitude": 32.58322,
+            "distancia_ate_destino_km": 12.434972830916378
+        },
+        "Matola": {
+            "latitude": -25.96222,
+            "longitude": 32.45889,
+            "distancia_ate_destino_km": 0.0
+        },
+        "Maxixe": {
+            "latitude": -23.85972,
+            "longitude": 35.34722,
+            "distancia_ate_destino_km": 373.4781543179148
+        },
+        "Moatize": {
+            "latitude": -16.099548,
+            "longitude": 33.95001,
+            "distancia_ate_destino_km": 1107.5062608724693
+        },
+        "Ilha de Moçambique": {
+            "latitude": -15.03417,
+            "longitude": 40.73583,
+            "distancia_ate_destino_km": 1488.7558434098873
+        },
+        "Mocimboa": {
+            "latitude": -25.915064,
+            "longitude": 32.469952,
+            "distancia_ate_destino_km": 5.358907960280593
+        },
+        "Mocuba": {
+            "latitude": -16.8375,
+            "longitude": 36.98556,
+            "distancia_ate_destino_km": 1117.3132914254643
+        },
+        "Monapo": {
+            "latitude": -14.91694,
+            "longitude": 40.30222,
+            "distancia_ate_destino_km": 1474.1863196985578
+        },
+        "Montepuez": {
+            "latitude": -13.12556,
+            "longitude": 38.99972,
+            "distancia_ate_destino_km": 1582.5286521918354
+        },
+        "Mutuáli": {
+            "latitude": -15.03417,
+            "longitude": 40.73583,
+            "distancia_ate_destino_km": 1488.7558434098873
+        },
+        "Nacala": {
+            "latitude": -14.54278,
+            "longitude": 40.67278,
+            "distancia_ate_destino_km": 1530.688676557755
+        },
+        "Namialo": {
+            "latitude": -14.92056,
+            "longitude": 39.98361,
+            "distancia_ate_destino_km": 1455.788283106147
+        },
+        "Nampula": {
+            "latitude": -15.11646,
+            "longitude": 39.2666,
+            "distancia_ate_destino_km": 1398.105079911296
+        },
+        "Pemba": {
+            "latitude": -12.97395,
+            "longitude": 40.51775,
+            "distancia_ate_destino_km": 1671.9045050593961
+        },
+        "Quelimane": {
+            "latitude": -17.87861,
+            "longitude": 36.88833,
+            "distancia_ate_destino_km": 1008.0634206472946
+        },
+        "Tete": {
+            "latitude": -16.15639,
+            "longitude": 33.58667,
+            "distancia_ate_destino_km": 1096.5987470963976
+        },
+        "Ulongué": {
+            "latitude": -14.72278,
+            "longitude": 34.36083,
+            "distancia_ate_destino_km": 1265.3317086051022
+        },
+        "Vilanculos": {
+            "latitude": -22.59639,
+            "longitude": 35.1125,
+            "distancia_ate_destino_km": 460.84920408230494
+        },
+        "Xai-Xai": {
+            "latitude": -25.05194,
+            "longitude": 33.64417,
+            "distancia_ate_destino_km": 156.1856763496532
+        }
+    }
+}

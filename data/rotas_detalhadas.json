@@ -1,0 +1,580 @@
+[
+    {
+        "origem": "Lichinga",
+        "destino": "Cuamba",
+        "distancia_metros": 301161.3,
+        "duracao_segundos": 17256.3,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                35.24056,
+                -13.31278
+            ],
+            "destino": [
+                36.53722,
+                -14.80306
+            ]
+        }
+    },
+    {
+        "origem": "Chimoio",
+        "destino": "Gondola",
+        "distancia_metros": 32011.1,
+        "duracao_segundos": 1977.5,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                33.48333,
+                -19.11639
+            ],
+            "destino": [
+                33.653722,
+                -19.153724
+            ]
+        }
+    },
+    {
+        "origem": "Cuamba",
+        "destino": "Tete",
+        "distancia_metros": 437521.7,
+        "duracao_segundos": 25448.1,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                36.53722,
+                -14.80306
+            ],
+            "destino": [
+                33.58667,
+                -16.15639
+            ]
+        }
+    },
+    {
+        "origem": "Dondo",
+        "destino": "Gondola",
+        "distancia_metros": 147666.2,
+        "duracao_segundos": 6898.4,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                34.74306,
+                -19.60944
+            ],
+            "destino": [
+                33.653722,
+                -19.153724
+            ]
+        }
+    },
+    {
+        "origem": "Cuamba",
+        "destino": "Guru\u00e9",
+        "distancia_metros": 122946.5,
+        "duracao_segundos": 8950.7,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                36.53722,
+                -14.80306
+            ],
+            "destino": [
+                36.97778,
+                -15.46694
+            ]
+        }
+    },
+    {
+        "origem": "Chimoio",
+        "destino": "Catandica",
+        "distancia_metros": 341481.7,
+        "duracao_segundos": 17464.3,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                33.48333,
+                -19.11639
+            ],
+            "destino": [
+                33.05306,
+                -17.33583
+            ]
+        }
+    },
+    {
+        "origem": "Dondo",
+        "destino": "Beira",
+        "distancia_metros": 35506.5,
+        "duracao_segundos": 1834.2,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                34.74306,
+                -19.60944
+            ],
+            "destino": [
+                34.83889,
+                -19.84361
+            ]
+        }
+    },
+    {
+        "origem": "Inhambane",
+        "destino": "Maxixe",
+        "distancia_metros": 51605.1,
+        "duracao_segundos": 2851.8,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                35.38333,
+                -23.865
+            ],
+            "destino": [
+                35.34722,
+                -23.85972
+            ]
+        }
+    },
+    {
+        "origem": "Inhambane",
+        "destino": "Manjacaze",
+        "distancia_metros": 241261.0,
+        "duracao_segundos": 12853.0,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                35.38333,
+                -23.865
+            ],
+            "destino": [
+                33.88278,
+                -24.71167
+            ]
+        }
+    },
+    {
+        "origem": "Inhambane",
+        "destino": "Xai-Xai",
+        "distancia_metros": 263839.9,
+        "duracao_segundos": 12938.9,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                35.38333,
+                -23.865
+            ],
+            "destino": [
+                33.64417,
+                -25.05194
+            ]
+        }
+    },
+    {
+        "origem": "Inhambane",
+        "destino": "Vilanculos",
+        "distancia_metros": 205660.6,
+        "duracao_segundos": 9415.9,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                35.38333,
+                -23.865
+            ],
+            "destino": [
+                35.1125,
+                -22.59639
+            ]
+        }
+    },
+    {
+        "origem": "Manjacaze",
+        "destino": "Macia",
+        "distancia_metros": 107768.7,
+        "duracao_segundos": 6434.5,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                33.88278,
+                -24.71167
+            ],
+            "destino": [
+                33.09889,
+                -25.02694
+            ]
+        }
+    },
+    {
+        "origem": "Angoche",
+        "destino": "Guru\u00e9",
+        "distancia_metros": 437229.2,
+        "duracao_segundos": 33143.9,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                39.90861,
+                -16.2325
+            ],
+            "destino": [
+                36.97778,
+                -15.46694
+            ]
+        }
+    },
+    {
+        "origem": "Tete",
+        "destino": "Gondola",
+        "distancia_metros": 416556.3,
+        "duracao_segundos": 22148.9,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                33.58667,
+                -16.15639
+            ],
+            "destino": [
+                33.653722,
+                -19.153724
+            ]
+        }
+    },
+    {
+        "origem": "Maputo",
+        "destino": "Matola",
+        "distancia_metros": 15980.5,
+        "duracao_segundos": 991.6,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                32.58322,
+                -25.96553
+            ],
+            "destino": [
+                32.45889,
+                -25.96222
+            ]
+        }
+    },
+    {
+        "origem": "Vilanculos",
+        "destino": "Gondola",
+        "distancia_metros": 499258.1,
+        "duracao_segundos": 22607.7,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                35.1125,
+                -22.59639
+            ],
+            "destino": [
+                33.653722,
+                -19.153724
+            ]
+        }
+    },
+    {
+        "origem": "Vilanculos",
+        "destino": "Gondola",
+        "distancia_metros": 499258.1,
+        "duracao_segundos": 22607.7,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                35.1125,
+                -22.59639
+            ],
+            "destino": [
+                33.653722,
+                -19.153724
+            ]
+        }
+    },
+    {
+        "origem": "Macia",
+        "destino": "Xai-Xai",
+        "distancia_metros": 64307.2,
+        "duracao_segundos": 3075.4,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                33.09889,
+                -25.02694
+            ],
+            "destino": [
+                33.64417,
+                -25.05194
+            ]
+        }
+    },
+    {
+        "origem": "Macia",
+        "destino": "Chibuto",
+        "distancia_metros": 69167.8,
+        "duracao_segundos": 3957.9,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                33.09889,
+                -25.02694
+            ],
+            "destino": [
+                33.53056,
+                -24.68667
+            ]
+        }
+    },
+    {
+        "origem": "Chibuto",
+        "destino": "Chokw\u00e9",
+        "distancia_metros": 66871.6,
+        "duracao_segundos": 4203.2,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                33.53056,
+                -24.68667
+            ],
+            "destino": [
+                32.98333,
+                -24.53333
+            ]
+        }
+    },
+    {
+        "origem": "Chibuto",
+        "destino": "Maputo",
+        "distancia_metros": 221477.0,
+        "duracao_segundos": 11845.9,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                33.53056,
+                -24.68667
+            ],
+            "destino": [
+                32.58322,
+                -25.96553
+            ]
+        }
+    },
+    {
+        "origem": "Chibuto",
+        "destino": "Matola",
+        "distancia_metros": 227620.1,
+        "duracao_segundos": 12023.1,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                33.53056,
+                -24.68667
+            ],
+            "destino": [
+                32.45889,
+                -25.96222
+            ]
+        }
+    },
+    {
+        "origem": "Mocuba",
+        "destino": "Ulongu\u00e9",
+        "distancia_metros": 480356.6,
+        "duracao_segundos": 26117.2,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                36.98556,
+                -16.8375
+            ],
+            "destino": [
+                34.36083,
+                -14.72278
+            ]
+        }
+    },
+    {
+        "origem": "Mocuba",
+        "destino": "Guru\u00e9",
+        "distancia_metros": 193944.2,
+        "duracao_segundos": 9981.1,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                36.98556,
+                -16.8375
+            ],
+            "destino": [
+                36.97778,
+                -15.46694
+            ]
+        }
+    },
+    {
+        "origem": "Mocuba",
+        "destino": "Angoche",
+        "distancia_metros": 497542.4,
+        "duracao_segundos": 32069.1,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                36.98556,
+                -16.8375
+            ],
+            "destino": [
+                39.90861,
+                -16.2325
+            ]
+        }
+    },
+    {
+        "origem": "Mocuba",
+        "destino": "Namialo",
+        "distancia_metros": 481106.7,
+        "duracao_segundos": 23361.2,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                36.98556,
+                -16.8375
+            ],
+            "destino": [
+                39.98361,
+                -14.92056
+            ]
+        }
+    },
+    {
+        "origem": "Namialo",
+        "destino": "Monapo",
+        "distancia_metros": 40153.7,
+        "duracao_segundos": 2390.2,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                39.98361,
+                -14.92056
+            ],
+            "destino": [
+                40.30222,
+                -14.91694
+            ]
+        }
+    },
+    {
+        "origem": "Monapo",
+        "destino": "Nacala",
+        "distancia_metros": 72067.9,
+        "duracao_segundos": 4315.8,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                40.30222,
+                -14.91694
+            ],
+            "destino": [
+                40.67278,
+                -14.54278
+            ]
+        }
+    },
+    {
+        "origem": "Monapo",
+        "destino": "Ilha de Mo\u00e7ambique",
+        "distancia_metros": 54072.9,
+        "duracao_segundos": 3351.3,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                40.30222,
+                -14.91694
+            ],
+            "destino": [
+                40.73583,
+                -15.03417
+            ]
+        }
+    },
+    {
+        "origem": "Ilha de Mo\u00e7ambique",
+        "destino": "Montepuez",
+        "distancia_metros": 402282.4,
+        "duracao_segundos": 20574.7,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                40.73583,
+                -15.03417
+            ],
+            "destino": [
+                38.99972,
+                -13.12556
+            ]
+        }
+    },
+    {
+        "origem": "Ilha de Mo\u00e7ambique",
+        "destino": "Pemba",
+        "distancia_metros": 408243.3,
+        "duracao_segundos": 18768.6,
+        "condicao_estrada": "Boa",
+        "coordenadas": {
+            "origem": [
+                40.73583,
+                -15.03417
+            ],
+            "destino": [
+                40.51775,
+                -12.97395
+            ]
+        }
+    },
+    {
+        "origem": "Pemba",
+        "destino": "Mocimboa",
+        "distancia_metros": 2483037.0,
+        "duracao_segundos": 112074.5,
+        "condicao_estrada": "Ruim",
+        "coordenadas": {
+            "origem": [
+                40.51775,
+                -12.97395
+            ],
+            "destino": [
+                32.469952,
+                -25.915064
+            ]
+        }
+    },
+    {
+        "origem": "Montepuez",
+        "destino": "Mocimboa",
+        "distancia_metros": 2477122.2,
+        "duracao_segundos": 113881.3,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                38.99972,
+                -13.12556
+            ],
+            "destino": [
+                32.469952,
+                -25.915064
+            ]
+        }
+    },
+    {
+        "origem": "Guru\u00e9",
+        "destino": "Monapo",
+        "distancia_metros": 460433.5,
+        "duracao_segundos": 26729.7,
+        "condicao_estrada": "Moderada",
+        "coordenadas": {
+            "origem": [
+                36.97778,
+                -15.46694
+            ],
+            "destino": [
+                40.30222,
+                -14.91694
+            ]
+        }
+    }
+]
