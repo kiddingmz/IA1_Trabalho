@@ -1,0 +1,22 @@
+Como usar heuristica.py
+=================================
+
+Este módulo implementa a geração de uma heurística baseada na fórmula de Haversine
+para calcular distâncias entre cidades, utilizando suas coordenadas geográficas.
+
+Uso
+===
+
+Importar as funções do módulo:
+    >>> from utils.heuristica import calcular_distancia_haversine, main
+
+# Testando a função calcular_distancia_haversine
+
+# 1. Testando distância entre duas cidades com coordenadas válidas
+    # tete a xai-xai
+    >>> calcular_distancia_haversine(-16.15639, 33.58667, -25.05194, 33.64417)
+    989.1580828189478
+
+# 2. Testando distância entre um ponto e ele mesmo
+    >>> calcular_distancia_haversine(-25.4284, -49.2733, -25.4284, -49.2733)
+    0.0

@@ -1,0 +1,195 @@
+Como usar busca_a_estrela.py
+=======================
+
+Este módulo implementa o algoritmo A* para encontrar a melhor rota entre duas cidades num grafo.
+
+Uso
+===
+
+Importar as funções do módulo:
+    >>> from algoritmos.busca_a_estrela import a_estrela
+
+# Inicializando o grafo
+    >>> grafo = {
+    ...    'CidadeA': {
+    ...        'CidadeB': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeB': {
+    ...        'CidadeA': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        }
+    ...    },
+    ...    'CidadeC': {
+    ...        'CidadeA': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        },
+    ...        'CidadeB': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeD': {
+    ...        'CidadeB': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    }
+    ... }
+
+# Testando com uma heurística invalida
+
+    >>> heuristica= {
+    ...   "CidadeD": {"distancia_ate_destino_km": 3},
+    ... }
+
+    >>> cidade_origem = "CidadeA"
+    >>> cidade_destino = "CidadeD"
+
+    >>> resultado = a_estrela(grafo, cidade_origem, cidade_destino, heuristica)
+    Traceback (most recent call last):
+    KeyError: 'distancias'
+
+# Testando o caso onde não existe cidade
+
+    >>> heuristica = {
+    ...     "distancias": {
+    ...         "CidadeA": {"distancia_ate_destino_km": 0},
+    ...         "CidadeB": {"distancia_ate_destino_km": 1},
+    ...         "CidadeC": {"distancia_ate_destino_km": 2},
+    ...         "CidadeD": {"distancia_ate_destino_km": 3},
+    ...     }
+    ... }
+    >>> grafo = {"CidadeX": {}, "CidadeY": {}}
+    >>> resultado = a_estrela(grafo, "CidadeX", "CidadeY", heuristica)
+    Distância heurística para CidadeY não encontrada.
+
+
+# Testando a função A* com dados válidos
+
+    >>> grafo = {
+    ...    'CidadeA': {
+    ...        'CidadeB': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeB': {
+    ...        'CidadeA': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        }
+    ...    },
+    ...    'CidadeC': {
+    ...        'CidadeA': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        },
+    ...        'CidadeB': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeD': {
+    ...        'CidadeB': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    }
+    ... }
+
+    >>> heuristica = {
+    ...     "distancias": {
+    ...         "CidadeA": {"distancia_ate_destino_km": 0},
+    ...         "CidadeB": {"distancia_ate_destino_km": 1},
+    ...         "CidadeC": {"distancia_ate_destino_km": 2},
+    ...         "CidadeD": {"distancia_ate_destino_km": 3},
+    ...     }
+    ... }
+
+    >>> cidade_origem = "CidadeA"
+    >>> cidade_destino = "CidadeD"
+    >>> resultado = a_estrela(grafo, cidade_origem, cidade_destino, heuristica)
+
+    # Vefiricando se o resultado é uma tupla (caminho, custo)
+    >>> isinstance(resultado, tuple)
+    True
+
+    # Verificando se o resultado contém o caminho e o custo
+    >>> len(resultado) == 2
+    True
+
+    >>> resultado
+    (['CidadeA', 'CidadeB', 'CidadeD'], 5.5)
+
+    # Verificando se o caminho é uma lista de cidades
+    >>> resultado[0]
+    ['CidadeA', 'CidadeB', 'CidadeD']
+
+    # Verificando se o custo é um número float ou decimal
+    >>> isinstance(resultado[1], float)
+    True

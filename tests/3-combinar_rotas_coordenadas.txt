@@ -1,0 +1,39 @@
+Testes para combinar_rotas_coordenadas.py
+========================================
+
+Importando a função
+    >>> from utils.combinar_rotas_coordenadas import combinar_rotas_coordenadas
+
+# Dados de entrada
+    >>> coordenadas_cidades = {
+    ...     "CidadeA": {"latitude": -25.4284, "longitude": -49.2733},
+    ...     "CidadeB": {"latitude": -22.9083, "longitude": -43.1964},
+    ...     "CidadeC": {"latitude": -23.5505, "longitude": -46.6333}
+    ... }
+    >>> rotas_cidades = [
+    ...     {"origem": "CidadeA", "destino": "CidadeB"},
+    ...     {"origem": "CidadeB", "destino": "CidadeC"}
+    ... ]
+
+# Teste 1: Gerar rotas válidas com coordenadas
+    >>> resultado = combinar_rotas_coordenadas(coordenadas_cidades, rotas_cidades)
+    >>> resultado
+    [{'origem': {'cidade': 'CidadeA', 'latitude': -25.4284, 'longitude': -49.2733}, 'destino': {'cidade': 'CidadeB', 'latitude': -22.9083, 'longitude': -43.1964}}, {'origem': {'cidade': 'CidadeB', 'latitude': -22.9083, 'longitude': -43.1964}, 'destino': {'cidade': 'CidadeC', 'latitude': -23.5505, 'longitude': -46.6333}}]
+
+# Teste 2: Coordenadas incompletas
+    >>> coordenadas_incompletas = {
+    ...     "CidadeA": {"latitude": -25.4284, "longitude": -49.2733}
+    ... }
+    >>> resultado = combinar_rotas_coordenadas(coordenadas_incompletas, rotas_cidades)
+    >>> resultado
+    []
+
+# Teste 3: Rotas vazias
+    >>> resultado = combinar_rotas_coordenadas(coordenadas_cidades, [])
+    >>> resultado
+    []
+
+# Teste 4: Coordenadas vazias
+    >>> resultado = combinar_rotas_coordenadas({}, rotas_cidades)
+    >>> resultado
+    []

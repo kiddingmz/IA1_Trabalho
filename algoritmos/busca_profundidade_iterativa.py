@@ -2,15 +2,6 @@ import json
 import os
 
 
-def calcular_distancia_total(caminho, grafo):
-    distancia_total = 0
-    for i in range(len(caminho) - 1):
-        origem = caminho[i]
-        destino = caminho[i + 1]
-        distancia_total += grafo[origem][destino]['distancia']
-    return distancia_total
-
-
 def profundidade_iterativa(grafo, cidade_origem, cidade_destino, penalizacao_ruim=1.5):
     profundidade_maxima = 0
     melhor_rota = None

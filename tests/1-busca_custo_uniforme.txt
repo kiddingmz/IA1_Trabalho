@@ -1,0 +1,96 @@
+Como usar busca_custo_uniforme.py
+=======================
+
+Este módulo implementa o algoritmo Custo Uniforme para encontrar a melhor rota entre duas cidades num grafo.
+
+Uso
+===
+
+Importar as funções do módulo:
+    >>> from algoritmos.busca_custo_uniforme import busca_custo_uniforme
+
+# Testando a função Custo Uniforme com dados válidos
+
+    >>> grafo = {
+    ...    'CidadeA': {
+    ...        'CidadeB': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeB': {
+    ...        'CidadeA': {
+    ...            'distancia': 150.0,
+    ...            'tempo_viagem': 2.5,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        }
+    ...    },
+    ...    'CidadeC': {
+    ...        'CidadeA': {
+    ...            'distancia': 300.0,
+    ...            'tempo_viagem': 5.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        },
+    ...        'CidadeB': {
+    ...            'distancia': 100.0,
+    ...            'tempo_viagem': 1.5,
+    ...            'condicao_estrada': 'Ruim'
+    ...        },
+    ...        'CidadeD': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    },
+    ...    'CidadeD': {
+    ...        'CidadeB': {
+    ...            'distancia': 200.0,
+    ...            'tempo_viagem': 3.0,
+    ...            'condicao_estrada': 'Boa'
+    ...        },
+    ...        'CidadeC': {
+    ...            'distancia': 250.0,
+    ...            'tempo_viagem': 4.0,
+    ...            'condicao_estrada': 'Moderada'
+    ...        }
+    ...    }
+    ... }
+
+    >>> cidade_origem = "CidadeA"
+    >>> cidade_destino = "CidadeD"
+    >>> resultado = busca_custo_uniforme(grafo, cidade_origem, cidade_destino)
+
+    # Vefiricando se o resultado é uma tupla (caminho, custo)
+    >>> isinstance(resultado, tuple)
+    True
+
+    # Verificando se o resultado contém o caminho e o custo
+    >>> len(resultado) == 2
+    True
+
+    >>> resultado
+    (['CidadeA', 'CidadeB', 'CidadeD'], 5.5)
+
+    # Verificando se o caminho é uma lista de cidades
+    >>> resultado[0]
+    ['CidadeA', 'CidadeB', 'CidadeD']
+
+    # Verificando se o custo é um número float ou decimal
+    >>> isinstance(resultado[1], float)
+    True

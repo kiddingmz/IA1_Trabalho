@@ -42,3 +42,8 @@ dentro do prazo.
 ```bash
   python main.py
 ```
+
+## Testes
+```bash
+  python -m doctest -v tests/<nome_do_arquivo>.txt
+```
